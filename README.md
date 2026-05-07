@@ -111,6 +111,6 @@ We believe the best way to master a technology is to master it together.
 ## 📄 License
 Distributed under the MIT License. See LICENSE for more information.
 <p align="center">
-Built with ☕ and 💻 by the <strong>Dev Share</strong> Collective.
+Built with ☕ and 💻 by the <strong>Dev Share</strong> 
 </p>
 
