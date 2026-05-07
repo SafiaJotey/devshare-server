@@ -52,12 +52,13 @@ devshare-server/
 └── tsconfig.json             # TypeScript compiler settings
 ```
 ## 🚀 Getting Started
-1. Prerequisites
-Node.js: v20.x or higher
-MongoDB: A URI from MongoDB Atlas or a local instance.
-2. Installation
-code
-Bash
+
+### 1. Prerequisites
+* **Node.js**: v20.x or higher
+* **MongoDB**: A URI from MongoDB Atlas or a local instance.
+
+### 2. Installation
+```bash
 # Clone the repository
 git clone https://github.com/SafiaJotey/devshare-server.git
 
@@ -66,16 +67,19 @@ cd devshare-server
 
 # Install dependencies
 npm install
-3. Environment Configuration
+
+```
+
+### 3. Environment Configuration
 Create a .env file in the root directory:
-code
-Env
+```bash
 NODE_ENV=development
 PORT=5000
 DATABASE_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/devshare
-4. Running the Engine
-code
-Bash
+```
+### 4. Running the Engine
+```bash
+
 # Start development server with hot-reload
 npm run dev
 
@@ -84,31 +88,29 @@ npm run build
 
 # Start production build
 npm start
-🛠 Roadmap
+```
+## 🛠 Roadmap
 
-Core System: Initial setup with Express, TypeScript, and MongoDB.
+-  **Core System:** Initial setup with Express, TypeScript, and MongoDB.
+-  **Auth Node:** JWT-based Auth (Google, LinkedIn, Facebook integration).
+- **Content Engine:** Advanced block-editor persistence for engineering insights.
+- **Signal Check:** Technical verification middleware for code-accuracy.
+-  **Analytics API:** Real-time engagement monitoring and traffic visualization.
 
-Identity Node: JWT-based Auth (Google, LinkedIn, Facebook integration).
-
-Content Engine: Advanced block-editor persistence for engineering insights.
-
-Signal Check: Technical verification middleware for code-accuracy.
-
-Analytics API: Real-time engagement monitoring and traffic visualization.
-🔐 Security & Validation
-Request Validation: Every incoming request is validated against a Zod schema to ensure data integrity.
-Resilient Errors: The server uses a centralized error handling mechanism to provide clear, technical feedback without leaking sensitive stack traces.
-CORS Policy: Strict cross-origin resource sharing to protect the API from unauthorized domains.
-🤝 Contributing
+## 🔐 Security & Validation
+-  **Request Validation:** Every incoming request is validated against a Zod schema to ensure data integrity.
+-  **Resilient Errors:** The server uses a centralized error handling mechanism to provide clear, technical feedback without leaking sensitive stack traces.
+-  **CORS Policy:** Strict cross-origin resource sharing to protect the API from unauthorized domains.
+## 🤝 Contributing
 We believe the best way to master a technology is to master it together.
-Fork the Project.
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
-Commit your Changes (git commit -m 'Add: AmazingFeature').
-Push to the Branch (git push origin feature/AmazingFeature).
-Open a Pull Request.
-📄 License
+-  Fork the Project.
+-  Create your Feature Branch (git checkout -b feature/AmazingFeature).
+-  Commit your Changes (git commit -m 'Add: AmazingFeature').
+-  Push to the Branch (git push origin feature/AmazingFeature).
+-  Open a Pull Request.
+## 📄 License
 Distributed under the MIT License. See LICENSE for more information.
 <p align="center">
 Built with ☕ and 💻 by the <strong>Dev Share</strong> Collective.
 </p>
-```
+
