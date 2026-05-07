@@ -51,7 +51,7 @@ devshare-server/
 ├── .env                      # Sensitive configuration (Excluded from Git)
 └── tsconfig.json             # TypeScript compiler settings
 ```
-### 🚀 Getting Started
+## 🚀 Getting Started
 1. Prerequisites
 Node.js: v20.x or higher
 MongoDB: A URI from MongoDB Atlas or a local instance.
